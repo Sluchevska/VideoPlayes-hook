@@ -1,11 +1,13 @@
+import { Li, Ul } from "./VideoList.styled";
+
 export const VideoList = ({ videos, onSelect }) => {
   return (
-    <ul>
+    <Ul>
       {videos.map(video => (
-        <li key={video.id} onClick={() => onSelect(video.link)}>
+        <Li key={video.id} onClick={() => onSelect(video.link)}>
           {video.link}
-        </li>
+        </Li>
       ))}
-    </ul>
+    </Ul>
   );
 };
