@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/videoplayer-hook/static/css/main.a617e044.chunk.css",
+    "main.js": "/videoplayer-hook/static/js/main.b2818c8f.chunk.js",
+    "main.js.map": "/videoplayer-hook/static/js/main.b2818c8f.chunk.js.map",
+    "runtime-main.js": "/videoplayer-hook/static/js/runtime-main.1c70bcd7.js",
+    "runtime-main.js.map": "/videoplayer-hook/static/js/runtime-main.1c70bcd7.js.map",
+    "static/js/2.4aa0a2ea.chunk.js": "/videoplayer-hook/static/js/2.4aa0a2ea.chunk.js",
+    "static/js/2.4aa0a2ea.chunk.js.map": "/videoplayer-hook/static/js/2.4aa0a2ea.chunk.js.map",
+    "static/js/3.7404fd67.chunk.js": "/videoplayer-hook/static/js/3.7404fd67.chunk.js",
+    "static/js/3.7404fd67.chunk.js.map": "/videoplayer-hook/static/js/3.7404fd67.chunk.js.map",
+    "index.html": "/videoplayer-hook/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/videoplayer-hook/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.4aa0a2ea.chunk.js.LICENSE.txt": "/videoplayer-hook/static/js/2.4aa0a2ea.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/videoplayer-hook/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c70bcd7.js",
+    "static/js/2.4aa0a2ea.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.b2818c8f.chunk.js"
+  ]
+}
