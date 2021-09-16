@@ -7,7 +7,7 @@ padding:10px
 
 export const Li = styled.li`
 list-style: none;
-padding: 10px;
+padding: 5px;
 border: 1px solid purple;
 margin-bottom: 10px;
 border-radius: 5px;
