@@ -1,24 +1,20 @@
+import { useState } from 'react';
+import { PageContainer } from './components/PageContainer/PageContainer';
+import { VideoList } from './components/VideoList/VideoList';
+import { Player } from './components/Player/Player';
+import videos from '../src/videos.json';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const [selectedVideo, setSelectedVideo] = useState(null);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <PageContainer>
+      <h1>Selected video: {selectedVideo}</h1>
+      <VideoList videos={videos} onSelect={setSelectedVideo} />
+      <Player url={selectedVideo} />
+    </PageContainer>
   );
 }
 
